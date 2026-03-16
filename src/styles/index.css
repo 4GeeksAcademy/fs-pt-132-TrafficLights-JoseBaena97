@@ -9,3 +9,45 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.body {
+    background-color: black;
+}
+
+.traffic {
+    width: 100px;
+    gap: 15px;
+}
+
+.lightred {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lightyellow {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lightgreen {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.shadowred {
+    box-shadow: 0 0 5rem 1rem red;
+}
+
+.shadowyellow {
+    box-shadow: 0 0 5rem 1rem yellow;
+}
+
+.shadowgreen {
+    box-shadow: 0 0 5rem 1rem green;
+}
